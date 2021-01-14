@@ -30,7 +30,7 @@ Once all the desired information is extracted into two separate lists (craigslis
 - Duplicates are dropped according to 'link'
 
 ## Load
-Finally, SQLAlchemy is used to connect the Jupyter notebook with Postgres. The dataframes are then loaded into 'playstation5_db' database with the following table names:
+Finally, SQLAlchemy is used to connect the Jupyter notebook with pgAdmin 4. The dataframes are then loaded into 'playstation5_db' as two tables to maintain their own columns and structure from the transformation process. 
 
 - 'craigslist_df' dataframe imported as 'craigslist' 
 - 'ebay_df' dataframe imported as 'ebay'
@@ -43,3 +43,4 @@ Finally, SQLAlchemy is used to connect the Jupyter notebook with Postgres. The d
 - Jupyter Notebook
 - SQLAlchemy
 - Postgres
+- pgAdmin 4
