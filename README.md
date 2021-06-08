@@ -2,10 +2,10 @@
 ![Alt text](ebay-craiglist.jpg?raw=true "Title")
 
 ## Background
-The goal of this project is to extract, transform, and load data from multiple sources. To accomplish this, I created my own datasets by scraping two popular online marketplaces: Craigslist and eBay. I chose Playstation 5 listings because the Playstation 5 is currently in high demand and is regularly listed above retail price.
+The goal of this project is to extract, transform, and load data from multiple sources. To accomplish this, I created my own datasets by scraping two popular online marketplaces: Craigslist and eBay. I chose PlayStation 5 listings because the PlayStation 5 is currently in high demand and is regularly listed above retail price.
 
 ## Extract
-BeautifulSoup is used to parse 'Playstation 5' search results on Craigslist and eBay. A for loop extracts information from one listing at a time, places extracted info in a dictionary, then appends each dictionary to a list of dictionaries. The following information is scraped:
+BeautifulSoup is used to parse 'PlayStation 5' search results on Craigslist and eBay. A for loop extracts information from one listing at a time, places extracted info in a dictionary, then appends each dictionary to a list of dictionaries. The following information is scraped:
 
 #### Craigslist
 - Title
